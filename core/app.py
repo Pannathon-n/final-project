@@ -9,7 +9,7 @@ from components.trades import RecentTradesPanel
 class DashboardApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Binance Real-Time Dashboard - Professional Edition")
+        self.root.title("Binance Real-Time Dashboard")
         self.root.geometry("1400x900")
         self.root.configure(bg=DarkTheme.BG)
 
